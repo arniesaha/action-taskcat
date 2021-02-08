@@ -3,7 +3,7 @@
 # https://dockr.ly/2BjpG7C to see the taskcat Dockerfile.
 
 # hadolint disable=DL3007
-FROM taskcat/taskcat:latest
+FROM taskcat/taskcat:0.9.23
 
 RUN apk add --no-cache nodejs=12.20.1-r0 npm=12.20.1-r0 && rm -rf /var/cache/apk/*
 
